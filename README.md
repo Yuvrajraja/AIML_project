@@ -14,7 +14,9 @@ Our project aims to predict the rank category (e.g., Candidate Master, Master, G
 3->Run All Cells: In the top menu, select Run > Run All Cells to execute the code.
 
 To download all the libraries for running the program, run the below command in terminal.
+
 bash Code
+
 pip install -r requirements.txt
 
 ## accuracy of our model
