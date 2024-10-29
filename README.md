@@ -17,17 +17,34 @@ rank-type: Categorical variable representing the user’s ranking category (e.g.
 contest1 to contest10: Numerical scores or ranks obtained by each user across 10 different contests, reflecting their performance over time.
 
 # instructions to run the program
-1->Download the Notebook: Download 2.ipynb from this repository.
+1->Clone the Repository:
 
-2->Open in VS Code: Launch VS Code, open 2.ipynb in the editor.
+1.1->Open VS Code and open a new terminal .
+Run the following command to clone the repository:
 
-3->Run All Cells: In the top menu, select Run > Run All Cells to execute the code.
+bash
 
-To download all the libraries for running the program, run the below command in terminal.
+git clone <repository_url>
 
-bash Code
+1.2->Download the Notebook:
+
+After cloning, navigate to the project folder in VS Code where the 2.ipynb file is located.
+
+2->Open the Notebook:
+
+In VS Code, locate 2.ipynb in the file explorer and open it in the editor.
+
+2.1->Install Required Libraries:
+
+The following command will install all necessary libraries for the program.
+
+bash code
 
 pip install -r requirements.txt
+
+Run All Cells:
+
+In the notebook, go to the top menu and select Run > Run All Cells to execute the code sequentially.
 
 ## accuracy of our model
 98.49548645937813 %
