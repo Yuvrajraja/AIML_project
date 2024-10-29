@@ -5,6 +5,16 @@ Made a model to predict the codeforces rank using decision tree
 ## Codeforces Rank Prediction Using Decision Tree
 Our project aims to predict the rank category (e.g., Candidate Master, Master, Grandmaster etc) of Codeforces users based on their 10 contest performance data. We use a Decision Tree classifier to build the predictive model, leveraging the model's interpretability and efficiency for this multiclass classification task.
 
+## Dataset Description:
+The dataset consists of 1,424 samples, with each row representing a user and their performance across multiple contests. 
+
+The columns are:
+
+userid: Unique identifier for each user.
+
+rank-type: Categorical variable representing the user’s ranking category (e.g., Candidate Master, Master, Grandmaster, etc.).
+
+contest1 to contest10: Numerical scores or ranks obtained by each user across 10 different contests, reflecting their performance over time.
 
 # instructions to run the program
 1->Download the Notebook: Download 2.ipynb from this repository.
