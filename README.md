@@ -19,30 +19,30 @@ contest1 to contest10: Numerical scores or ranks obtained by each user across 10
 # instructions to run the program
 1->Clone the Repository:
 
-1.1->Open VS Code and open a new terminal .
-Run the following command to clone the repository:
+   1.1->Open VS Code and open a new terminal .
+        Run the following command to clone the repository:
 
-bash
+        bash
 
-git clone <repository_url>
+        git clone <repository_url>
 
-1.2->Download the Notebook:
+    1.2->Download the Notebook:
 
-After cloning, navigate to the project folder in VS Code where the 2.ipynb file is located.
+         After cloning, navigate to the project folder in VS Code where the 2.ipynb file is located.
 
-2->Open the Notebook:
+ 2->Open the Notebook:
 
-In VS Code, locate 2.ipynb in the file explorer and open it in the editor.
+    In VS Code, locate 2.ipynb in the file explorer and open it in the editor.
 
-2.1->Install Required Libraries:
+    2.1->Install Required Libraries:
 
-The following command will install all necessary libraries for the program.
+        The following command will install all necessary libraries for the program.
 
-bash code
+        bash code
 
-pip install -r requirements.txt
+         pip install -r requirements.txt
 
-Run All Cells:
+3->Run All Cells:
 
 In the notebook, go to the top menu and select Run > Run All Cells to execute the code sequentially.
 
